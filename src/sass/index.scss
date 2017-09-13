@@ -3,6 +3,12 @@
 @import "variables";
 @import "mixins";
 
+/*
+when it comes to react, I am very interested in separating styles.
+I love to use this file as the main stylesheet for general styles and then each component has it's own
+styles in the components folder attached to it.
+*/
+
 body{
   background-color: #c0c0c0;
   color: $white;
