@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
+This project was bootstrapped from [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
 You can find the most recent version of this guide [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
@@ -114,11 +114,11 @@ We commit to keeping the breaking changes minimal so you can upgrade `react-scri
 
 ## Sending Feedback
 
-We are always open to [your feedback](https://github.com/facebookincubator/create-react-app/issues).
+We are always open to [your feedback](https://github.com/DannyMcwaves/react-starter/issues).
 
 ## Folder Structure
 
-After creation, your project should look like this:
+After pulling, your project should look like this:
 
 ```
 my-app/
@@ -128,13 +128,25 @@ my-app/
   public/
     index.html
     favicon.ico
+    manifest.json
   src/
-    App.css
-    App.js
+    components/
+      App/
+        App.js
+        App.css
+    fonts/
+      Acme/
+    js/
+      book.ts
+      paper.js
+    images/
+      logo.svg
+    sass/
+      __mixins
+      index.scss
     App.test.js
-    index.css
     index.js
-    logo.svg
+    registerServiceWorker.js
 ```
 
 For the project to build, **these files must exist with exact filenames**:
@@ -201,6 +213,8 @@ In addition to [ES6](https://github.com/lukehoban/es6features) syntax features, 
 * [Dynamic import()](https://github.com/tc39/proposal-dynamic-import) (stage 3 proposal)
 * [Class Fields and Static Properties](https://github.com/tc39/proposal-class-public-fields) (stage 2 proposal).
 * [JSX](https://facebook.github.io/react/docs/introducing-jsx.html) and [Flow](https://flowtype.org/) syntax.
+* [Typescript](https://typescriptlang.org/) 2.5 support.
+* [SASS](https://typescriptlang.org/) and [Compass](https://compass.com) 2.5 support.
 
 Learn more about [different proposal stages](https://babeljs.io/docs/plugins/#presets-stage-x-experimental-presets-).
 
